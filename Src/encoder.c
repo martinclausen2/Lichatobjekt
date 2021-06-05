@@ -22,7 +22,7 @@ void Encoder()
 	short DeltaCounter;
 	static short OldDeltaCounter;
 
-	DeltaCounter = Counter - OldCounter;
+	DeltaCounter = -(Counter - OldCounter);
 	//handle warp around
 	if (DeltaCounter > MaxChange)
 	{

@@ -200,5 +200,6 @@ void SwAllLightOff()
 
 void ToggleFocus()
 {
-	FocusBacklight = !FocusBacklight;
+	// in this version we have only a single output channel
+	//FocusBacklight = !FocusBacklight;
 }
